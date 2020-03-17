@@ -1,0 +1,21 @@
+{
+    "description": "Export and Import part of content among Neos installations",
+    "type": "neos-package",
+    "name": "lelesys/neos-contentexportimport",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "require": {
+        "neos/neos": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lelesys\\Neos\\ContentExportImport\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Lelesys.Neos.ContentExportImport"
+        }
+    }
+}
